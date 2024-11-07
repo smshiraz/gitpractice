@@ -12,13 +12,17 @@ public class DemoController {
 	@GetMapping("/sayhello")
 	public String sayHello()
 	{
-		return "Hello from master";
+
+		return "Hello from feature CONFLICT RESOLVED";
+
 	}
 	
 	@GetMapping("/sayhi")
 	public String sayHi()
 	{
-		return "Hi from master";
+
+		return "Hi from feature Conflict Resolved";
+
 	}
 
 }
