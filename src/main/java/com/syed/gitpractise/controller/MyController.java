@@ -12,13 +12,13 @@ public class MyController {
 	@GetMapping("/saypop")
 	public String sayPop()
 	{
-		return "Pop";
+		return "Pop from master";
 	}
 	
 	@GetMapping("/sayghazal")
 	public String sayGhazal()
 	{
-		return "Ghazal";
+		return "Ghazal from master";
 	}
 	
 	
