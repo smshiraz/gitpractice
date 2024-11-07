@@ -12,13 +12,17 @@ public class MyController {
 	@GetMapping("/saypop")
 	public String sayPop()
 	{
-		return "Pop from master";
+
+		return "Pop from feature conflict resolved";
+
 	}
 	
 	@GetMapping("/sayghazal")
 	public String sayGhazal()
 	{
-		return "Ghazal from master";
+
+		return "Ghazal from feature conflict resolved";
+
 	}
 	
 	
