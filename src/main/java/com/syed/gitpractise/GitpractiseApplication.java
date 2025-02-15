@@ -10,6 +10,7 @@ public class GitpractiseApplication {
 		SpringApplication.run(GitpractiseApplication.class, args);
 	}
 
+
 	void m1()
 	{
 		 System.out.println("m1");
@@ -20,5 +21,12 @@ public class GitpractiseApplication {
 		 System.out.println("m2");
 	}
 
+
+
+	
+	   void f1()
+	   {
+		   System.out.println("f1");
+	   }
 
 }
