@@ -10,4 +10,9 @@ public class GitpractiseApplication {
 		SpringApplication.run(GitpractiseApplication.class, args);
 	}
 
+	void m1()
+	{
+		 System.out.println("m1");
+	}
+
 }
