@@ -29,4 +29,10 @@ public class GitpractiseApplication {
 		   System.out.println("f1");
 	   }
 
+	   
+	   void f2()
+	   {
+		   System.out.println("f2");
+	   }
+
 }
