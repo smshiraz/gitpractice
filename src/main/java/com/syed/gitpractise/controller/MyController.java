@@ -12,7 +12,7 @@ public class MyController {
 	@GetMapping("/saypop")
 	public String sayPop()
 	{
-
+        System.out.println("HII");
 		return "Pop from feature conflict resolved";
 
 	}
